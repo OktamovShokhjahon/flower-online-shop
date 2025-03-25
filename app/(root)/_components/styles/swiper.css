@@ -1,0 +1,103 @@
+/* Ensure pagination bullets are displayed horizontally */
+.mypgn2 .swiper-pagination {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    /* Adjust the vertical position as needed */
+    left: 0;
+    /* Center horizontally if necessary */
+    right: 0;
+    /* Center horizontally if necessary */
+    padding: 0;
+    margin: 0;
+    gap: 0;
+    /* No gap between bullets */
+}
+
+/* Style the pagination bullets as vertical lines */
+.mypgn2 .swiper-pagination-bullet {
+    width: 22px;
+    /* Default width */
+    height: 10px;
+    /* Height */
+    background-color: #fff;
+    /* Default color */
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    /* Smooth transition */
+    margin-right: 0;
+    /* Remove right margin */
+    gap: 0;
+    /* No gap between bullets */
+}
+
+/* Style for the active pagination bullet */
+.mypgn2 .swiper-pagination-bullet-active {
+    background-color: #fff;
+    /* Color when active */
+    width: 50px;
+    margin: 0;
+    /* Remove any margin */
+    gap: 0;
+    /* No gap between bullets */
+}
+
+/* Optional filter classes */
+.filter-white {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(180deg) brightness(200%) contrast(200%);
+}
+
+.filter-black {
+    filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+}
+
+
+/* Ensure pagination bullets are displayed horizontally */
+.mypgn .swiper-pagination {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    /* Adjust the vertical position as needed */
+    left: 0;
+    /* Center horizontally if necessary */
+    right: 0;
+    /* Center horizontally if necessary */
+    padding: 0;
+    margin: 0;
+    gap: 0;
+    /* No gap between bullets */
+}
+
+/* Style the pagination bullets as vertical lines */
+.mypgn .swiper-pagination-bullet {
+    width: 30px;
+    /* Default width */
+    height: 10px;
+    /* Height */
+    background-color: rgba(255, 255, 255, 1);
+    /* Default color */
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    /* Smooth transition */
+    margin-right: 0;
+    /* Remove right margin */
+    gap: 0;
+    /* No gap between bullets */
+}
+
+/* Style for the active pagination bullet */
+.mypgn .swiper-pagination-bullet-active {
+    background-color: #fff;
+    /* Color when active */
+    width: 30px;
+    margin: 0;
+    /* Remove any margin */
+    gap: 0;
+    /* No gap between bullets */
+}

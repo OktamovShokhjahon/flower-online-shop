@@ -1,0 +1,72 @@
+/* [project]/app/(root)/_components/styles/swiper.css [app-client] (css) */
+.mypgn2 .swiper-pagination {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  gap: 0;
+}
+
+.mypgn2 .swiper-pagination-bullet {
+  width: 22px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  transition: all .3s;
+  margin-right: 0;
+  gap: 0;
+}
+
+.mypgn2 .swiper-pagination-bullet-active {
+  background-color: #fff;
+  width: 50px;
+  margin: 0;
+  gap: 0;
+}
+
+.filter-white {
+  filter: invert() sepia(0%) saturate(0%) hue-rotate(180deg) brightness(200%) contrast(200%);
+}
+
+.filter-black {
+  filter: invert(0%) sepia() saturate(0%) hue-rotate() brightness() contrast();
+}
+
+.mypgn .swiper-pagination {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  gap: 0;
+}
+
+.mypgn .swiper-pagination-bullet {
+  width: 30px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  transition: all .3s;
+  margin-right: 0;
+  gap: 0;
+}
+
+.mypgn .swiper-pagination-bullet-active {
+  background-color: #fff;
+  width: 30px;
+  margin: 0;
+  gap: 0;
+}
+
+/*# sourceMappingURL=app_%28root%29__components_styles_swiper_b52d8e.css.map*/

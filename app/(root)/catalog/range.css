@@ -1,0 +1,26 @@
+.slider {
+    -webkit-appearance: none;
+    height: 8px;
+    background: transparent;
+    cursor: pointer;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #4F46E5; /* Tailwind indigo-600 */
+    border: 2px solid #4F46E5; /* Tailwind indigo-600 */
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #4F46E5; /* Tailwind indigo-600 */
+    border: 2px solid #4F46E5; /* Tailwind indigo-600 */
+    cursor: pointer;
+  }
