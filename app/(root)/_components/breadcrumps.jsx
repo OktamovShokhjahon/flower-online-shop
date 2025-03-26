@@ -11,6 +11,7 @@ function BreadCrumps({ links }) {
             <>
               <Link
                 href={link.href}
+                key={idx}
                 className={
                   idx !== links.length - 1
                     ? "text-[16px] leading-[20px] font-medium font-montserrat text-[#453C3C80]/50"

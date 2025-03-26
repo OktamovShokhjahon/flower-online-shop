@@ -101,7 +101,15 @@ html {
 }
 
 .button {
-  @apply w-[300px] xl:w-[345px] h-[60px] xl:h-[67px] md:rounded-[20px] rounded-[10px] bg-[#7D6064] text-[#fff] text-[16px] leading-[22px] xl:text-[18px] xl:leading-[24px] font-normal font-montserrat hover:opacity-[0.8] transition-all;
+  @apply h-[60px] xl:h-[67px] md:rounded-[20px] rounded-[10px] bg-[#7D6064] text-[#fff] text-[16px] leading-[22px] xl:text-[18px] xl:leading-[24px] font-normal font-montserrat hover:opacity-[0.8] transition-all;
+}
+
+.bold-title {
+  @apply font-montserrat font-[600] text-[48px] text-[#453C3C];
+}
+
+.light-title {
+  @apply font-montserrat font-[600] text-[42px] text-[#453C3C];
 }
 
 img {

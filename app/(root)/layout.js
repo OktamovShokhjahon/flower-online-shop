@@ -2,7 +2,7 @@
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Header } from "./_components";
+import { Footer, Header } from "./_components";
 
 export default function RootLayout({ children }) {
   useEffect(() => {
