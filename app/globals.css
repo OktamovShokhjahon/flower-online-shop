@@ -117,6 +117,10 @@ html {
   @apply font-montserrat font-[600] text-[42px] text-[#453C3C];
 }
 
+.little-title {
+  @apply font-montserrat font-[600] text-[28px] text-[#7D6064];
+}
+
 img {
   pointer-events: none;
   user-select: none;

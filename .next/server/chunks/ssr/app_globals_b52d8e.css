@@ -611,6 +611,11 @@ body {
   margin-bottom: 100px;
 }
 
+.my-\[50px\] {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .-ml-4 {
   margin-left: -1rem;
 }
@@ -1045,6 +1050,10 @@ body {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[50\%\] {
+  width: 50%;
 }
 
 .min-w-0 {
@@ -2210,6 +2219,14 @@ html {
   font-weight: 600;
   --tw-text-opacity: 1;
   color: rgb(69 60 60 / var(--tw-text-opacity, 1));
+}
+
+.little-title {
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(125 96 100 / var(--tw-text-opacity, 1));
 }
 
 img {
