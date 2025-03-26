@@ -100,6 +100,11 @@ html {
   @apply text-[#453C3CCC] text-[18px] font-[500] font-montserrat;
 }
 
+.bold-description span,
+.light-description span {
+  @apply font-[700] text-[18px] font-montserrat;
+}
+
 .button {
   @apply h-[60px] xl:h-[67px] md:rounded-[20px] rounded-[10px] bg-[#7D6064] text-[#fff] text-[16px] leading-[22px] xl:text-[18px] xl:leading-[24px] font-normal font-montserrat hover:opacity-[0.8] transition-all;
 }

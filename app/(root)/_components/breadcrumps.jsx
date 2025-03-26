@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { Fragment } from "react";
 
 function BreadCrumps({ links }) {
   return (
@@ -8,10 +9,9 @@ function BreadCrumps({ links }) {
       {links &&
         links.map((link, idx) => {
           return (
-            <>
+            <Fragment key={idx}>
               <Link
                 href={link.href}
-                key={idx}
                 className={
                   idx !== links.length - 1
                     ? "text-[16px] leading-[20px] font-medium font-montserrat text-[#453C3C80]/50"
@@ -25,7 +25,7 @@ function BreadCrumps({ links }) {
               ) : (
                 ""
               )}
-            </>
+            </Fragment>
           );
         })}
     </div>

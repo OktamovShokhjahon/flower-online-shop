@@ -19,7 +19,9 @@ export default function RootLayout({ children }) {
       <main className="select-none pt-[75px] desktop:pt-[155px]">
         {children}
       </main>
-      <footer>{/* <Footer /> */}</footer>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
