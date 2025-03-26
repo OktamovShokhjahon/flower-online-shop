@@ -58,6 +58,7 @@ export default {
       screens: {
         mobile: "375px",
         xs: "420px",
+        minitablet: "680px",
         tablet: "768px",
         desktop: "1060px",
         polo: "1280px",

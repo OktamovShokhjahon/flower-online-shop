@@ -360,6 +360,12 @@ body {
   }
 }
 
+@media (width >= 680px) {
+  .container {
+    max-width: 680px;
+  }
+}
+
 @media (width >= 768px) {
   .container {
     max-width: 768px;
@@ -662,6 +668,10 @@ body {
 
 .mt-auto {
   margin-top: auto;
+}
+
+.mb-\[20px\] {
+  margin-bottom: 20px;
 }
 
 .block {
@@ -984,10 +994,6 @@ body {
   width: 300px;
 }
 
-.w-\[310px\] {
-  width: 310px;
-}
-
 .w-\[345px\] {
   width: 345px;
 }
@@ -1010,6 +1016,10 @@ body {
 
 .w-\[47px\] {
   width: 47px;
+}
+
+.w-\[50\%\] {
+  width: 50%;
 }
 
 .w-\[50px\] {
@@ -1050,10 +1060,6 @@ body {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[50\%\] {
-  width: 50%;
 }
 
 .min-w-0 {
@@ -1220,6 +1226,10 @@ body {
   align-items: center;
 }
 
+.justify-end {
+  justify-content: flex-end;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -1294,10 +1304,6 @@ body {
 
 .gap-\[60px\] {
   gap: 60px;
-}
-
-.gap-\[70px\] {
-  gap: 70px;
 }
 
 .gap-\[7px\] {
@@ -1828,6 +1834,10 @@ body {
   line-height: 1rem;
 }
 
+.text-\[1px\] {
+  font-size: 1px;
+}
+
 .font-\[500\] {
   font-weight: 500;
 }
@@ -2010,6 +2020,10 @@ body {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#453C3C33\] {
+  color: #453c3c33;
 }
 
 .underline {
@@ -2199,6 +2213,40 @@ html {
 
 @media (width >= 1360px) {
   .button {
+    height: 67px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+.light-button {
+  height: 60px;
+  border-radius: 10px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  --tw-text-opacity: 1;
+  color: rgb(125 96 100 / var(--tw-text-opacity, 1));
+  transition-property: all;
+  transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+  transition-duration: .15s;
+}
+
+.light-button:hover {
+  opacity: .8;
+}
+
+@media (width >= 768px) {
+  .light-button {
+    border-radius: 20px;
+  }
+}
+
+@media (width >= 1360px) {
+  .light-button {
     height: 67px;
     font-size: 18px;
     line-height: 24px;
@@ -2562,6 +2610,16 @@ img {
   }
 }
 
+@media (width >= 680px) {
+  .minitablet\:flex {
+    display: flex;
+  }
+
+  .minitablet\:hidden {
+    display: none;
+  }
+}
+
 @media (width >= 768px) {
   .md\:left-\[-70px\] {
     left: -70px;
@@ -2885,6 +2943,10 @@ img {
     top: 188px;
   }
 
+  .polo\:block {
+    display: block;
+  }
+
   .polo\:flex {
     display: flex;
   }
@@ -2931,6 +2993,10 @@ img {
 
   .polo\:w-\[28px\] {
     width: 28px;
+  }
+
+  .polo\:w-\[310px\] {
+    width: 310px;
   }
 
   .polo\:w-\[34px\] {

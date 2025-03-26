@@ -109,6 +109,10 @@ html {
   @apply h-[60px] xl:h-[67px] md:rounded-[20px] rounded-[10px] bg-[#7D6064] text-[#fff] text-[16px] leading-[22px] xl:text-[18px] xl:leading-[24px] font-normal font-montserrat hover:opacity-[0.8] transition-all;
 }
 
+.light-button {
+  @apply h-[60px] xl:h-[67px] md:rounded-[20px] rounded-[10px] bg-[white] text-[#7D6064] text-[16px] leading-[22px] xl:text-[18px] xl:leading-[24px] font-normal font-montserrat hover:opacity-[0.8] transition-all;
+}
+
 .bold-title {
   @apply font-montserrat font-[600] text-[48px] text-[#453C3C];
 }

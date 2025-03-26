@@ -1,5 +1,3 @@
 {
-  "/(root)/example-calculation/page": "app/(root)/example-calculation/page.js",
-  "/_not-found/page": "app/_not-found/page.js",
   "/(root)/holiday-schedule/page": "app/(root)/holiday-schedule/page.js"
 }
