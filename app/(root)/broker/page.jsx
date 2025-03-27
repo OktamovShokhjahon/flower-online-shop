@@ -27,7 +27,7 @@ function page() {
 
       <hr className="hr my-[20px]" />
 
-      <div className="flex justify-between gap-[20px]">
+      <div className="flex tablet:flex-row flex-col justify-between gap-[20px]">
         <p className="light-description">
           Только у нас можно заказать свежие цветы, регулярно поставляемые прямо
           в ваш магазин. Благодаря плодотворному и успешному многолетнему

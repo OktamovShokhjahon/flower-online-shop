@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://D%3A/Technology/Task/flowers-online-ecommerce/app/not-found.jsx"],"sourcesContent":["import React from \"react\";\r\n\r\nfunction NotFound() {\r\n  return <div></div>;\r\n}\r\n\r\nexport default NotFound;\r\n"],"names":[],"mappings":";;;;AAAA;;;AAEA,SAAS;IACP,qBAAO,8OAAC;;;;;AACV;uCAEe"}},
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
