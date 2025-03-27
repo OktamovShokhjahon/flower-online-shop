@@ -2619,6 +2619,13 @@ html {
   background-color: rgb(69 60 60 / var(--tw-bg-opacity, 1));
 }
 
+.disc-list {
+  position: relative;
+  left: 15px;
+  list-style-position: inside;
+  list-style-type: disc;
+}
+
 img {
   pointer-events: none;
   user-select: none;

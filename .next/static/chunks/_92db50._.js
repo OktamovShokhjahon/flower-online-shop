@@ -210,11 +210,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f28$root$292f$_componen
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/swiper/swiper-react.mjs [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$modules$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$module__evaluation$3e$__ = __turbopack_import__("[project]/node_modules/swiper/modules/index.mjs [app-client] (ecmascript) <module evaluation>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$images$2f$vit$2e$webp$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$images$2f$vit$2e$webp__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/public/images/vit.webp.mjs { IMAGE => "[project]/public/images/vit.webp [app-client] (static)" } [app-client] (structured image object, ecmascript)');
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$usehooks$2d$ts$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/usehooks-ts/dist/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$modules$2f$scrollbar$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Scrollbar$3e$__ = __turbopack_import__("[project]/node_modules/swiper/modules/scrollbar.mjs [app-client] (ecmascript) <export default as Scrollbar>");
-;
-var _s = __turbopack_refresh__.signature();
 "use client";
 ;
 ;
@@ -227,9 +223,7 @@ var _s = __turbopack_refresh__.signature();
 ;
 ;
 ;
-;
 function WholesaleClients() {
-    _s();
     const links = [
         {
             name: "Главная",
@@ -240,8 +234,6 @@ function WholesaleClients() {
             href: "/wholesale-clients"
         }
     ];
-    const swiperRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
-    const isMobile = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$usehooks$2d$ts$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMediaQuery"])("(max-width: 768px)");
     const flowers = [
         {
             image: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$images$2f$vit$2e$webp$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$images$2f$vit$2e$webp__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
@@ -283,7 +275,7 @@ function WholesaleClients() {
                 links: links
             }, void 0, false, {
                 fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                lineNumber: 68,
+                lineNumber: 63,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -297,7 +289,7 @@ function WholesaleClients() {
                                 children: "Оптовым клиентам"
                             }, void 0, false, {
                                 fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                                lineNumber: 72,
+                                lineNumber: 67,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -308,7 +300,7 @@ function WholesaleClients() {
                                         children: "Уважаемые Профессионалы цветочного бизнеса, партнеры!"
                                     }, void 0, false, {
                                         fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                                        lineNumber: 74,
+                                        lineNumber: 69,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -316,7 +308,7 @@ function WholesaleClients() {
                                         children: "Наша компания уже сегодня может предложить уникальную услугу по закупке цветов непосредственно от производителя! Огромный цветочный ассортимент, который вы сможете купить напрямую с голландских цветочных аукционов  в режиме реального времени и по аукционным ценам, а также роза, купленная непосредственно на эквадорских и колумбийских плантациях, поможет вам стать более конкурентноспособными на цветочном рынке!"
                                     }, void 0, false, {
                                         fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                                        lineNumber: 77,
+                                        lineNumber: 72,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -324,13 +316,13 @@ function WholesaleClients() {
                                         children: "Профессиональные флористы, владельцы цветочных магазинов, бутиков, интернет-магазины доставки цветов, федеральные государственные организации — наши настоящие и будущие клиенты."
                                     }, void 0, false, {
                                         fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                                        lineNumber: 86,
+                                        lineNumber: 81,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                                lineNumber: 73,
+                                lineNumber: 68,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -341,7 +333,7 @@ function WholesaleClients() {
                                         children: "Выгодное сотрудничество с оптовой базой цветов «Планета Флора»"
                                     }, void 0, false, {
                                         fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                                        lineNumber: 93,
+                                        lineNumber: 88,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -349,13 +341,13 @@ function WholesaleClients() {
                                         children: "Дело в том, что наша компания не просто предоставляет возможность покупать цветы напрямую от производителей. Мы не бросаем своих клиентов один на один с транспортными компаниями, таможенными брокерами и с ворохом необходимых документов в ценах, ставках и в количестве которых можно запутаться и запросто потеряться. Работая с нами, вы получаете весь спектр услуг, связанных с закупкой цветов оптом в Голландии, Эквадоре, Колумбии, Кении и других странах, как в совокупности, так и каждого этапа в отдельности."
                                     }, void 0, false, {
                                         fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                                        lineNumber: 96,
+                                        lineNumber: 91,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                                lineNumber: 92,
+                                lineNumber: 87,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -366,7 +358,7 @@ function WholesaleClients() {
                                         children: "Закупайте оптом только свежие цветы"
                                     }, void 0, false, {
                                         fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                                        lineNumber: 108,
+                                        lineNumber: 103,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -374,7 +366,7 @@ function WholesaleClients() {
                                         children: "Компания располагает складом с холодильным оборудованием и необходимыми условиями для поддержания температурного режима. Ознакомиться с актуальными товарными позициями можно в оранжерее или садовом центре."
                                     }, void 0, false, {
                                         fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                                        lineNumber: 111,
+                                        lineNumber: 106,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -382,7 +374,7 @@ function WholesaleClients() {
                                         children: "Компания готова предложить для небольших оптовых клиентов следующие преимущества сотрудничества:"
                                     }, void 0, false, {
                                         fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                                        lineNumber: 117,
+                                        lineNumber: 112,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -392,40 +384,40 @@ function WholesaleClients() {
                                                 children: "Регулярное обновление ассортимента растений и высокое качество продукции;"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                                                lineNumber: 122,
+                                                lineNumber: 117,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: "Широкий выбор роз, цветов для выращивания дома и в саду;"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                                                lineNumber: 126,
+                                                lineNumber: 121,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: "Широкий ассортимент свежесрезанных цветов и все необходимое для работы флористов;"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                                                lineNumber: 127,
+                                                lineNumber: 122,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: "Демократичные цены на позиционируемую продукцию благодаря прямому сотрудничеству с поставщиками"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                                                lineNumber: 131,
+                                                lineNumber: 126,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                                        lineNumber: 121,
+                                        lineNumber: 116,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                                lineNumber: 107,
+                                lineNumber: 102,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -436,7 +428,7 @@ function WholesaleClients() {
                                         children: "Предложение для оптовиков"
                                     }, void 0, false, {
                                         fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                                        lineNumber: 138,
+                                        lineNumber: 133,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -444,7 +436,7 @@ function WholesaleClients() {
                                         children: "Компания предлагает для оптовых покупателей широкий ассортимент цветов и горшечных растений по оптовым ценам. Компания занимает одно из ведущих мест в регионе по масштабам сотрудничества с поставщиками из России, стран СНГ, Израиля, Голландии, Колумбии и Эквадора."
                                     }, void 0, false, {
                                         fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                                        lineNumber: 139,
+                                        lineNumber: 134,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -454,34 +446,34 @@ function WholesaleClients() {
                                                 children: "Низкие цены на цветы и садовые растения"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                                                lineNumber: 147,
+                                                lineNumber: 142,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: "Широкий ассортимент свежесрезанных цветов и горшечных растений"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                                                lineNumber: 148,
+                                                lineNumber: 143,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: "Круглосуточный график работы"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                                                lineNumber: 151,
+                                                lineNumber: 146,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: "Удобное расположение"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                                                lineNumber: 152,
+                                                lineNumber: 147,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                                        lineNumber: 146,
+                                        lineNumber: 141,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -489,13 +481,13 @@ function WholesaleClients() {
                                         children: "Крупный и мелкий опт цветов позволит обеспечить постоянные поставки свежесрезанных и горшечных цветов для сетей цветочных салонов и больших магазинов. В ассортименте представлено свыше 300 сезонных цветов, зелень, необходимые материалы и инструменты для работы флористов."
                                     }, void 0, false, {
                                         fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                                        lineNumber: 154,
+                                        lineNumber: 149,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                                lineNumber: 137,
+                                lineNumber: 132,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -504,18 +496,18 @@ function WholesaleClients() {
                                     children: "Регистрация для оптовых клиентов"
                                 }, void 0, false, {
                                     fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                                    lineNumber: 163,
+                                    lineNumber: 158,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                                lineNumber: 162,
+                                lineNumber: 157,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                        lineNumber: 71,
+                        lineNumber: 66,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -530,12 +522,12 @@ function WholesaleClients() {
                                     height: "100%"
                                 }, void 0, false, {
                                     fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                                    lineNumber: 170,
+                                    lineNumber: 165,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                                lineNumber: 169,
+                                lineNumber: 164,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -547,24 +539,24 @@ function WholesaleClients() {
                                     height: "100%"
                                 }, void 0, false, {
                                     fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                                    lineNumber: 174,
+                                    lineNumber: 169,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                                lineNumber: 173,
+                                lineNumber: 168,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                        lineNumber: 168,
+                        lineNumber: 163,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                lineNumber: 70,
+                lineNumber: 65,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -575,7 +567,7 @@ function WholesaleClients() {
                         children: "Сорта роз"
                     }, void 0, false, {
                         fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                        lineNumber: 180,
+                        lineNumber: 175,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -585,13 +577,13 @@ function WholesaleClients() {
                                 ...flower
                             }, idx, false, {
                                 fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                                lineNumber: 185,
+                                lineNumber: 180,
                                 columnNumber: 22
                             }, this);
                         })
                     }, void 0, false, {
                         fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                        lineNumber: 182,
+                        lineNumber: 177,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -612,43 +604,38 @@ function WholesaleClients() {
                                         ...flower
                                     }, void 0, false, {
                                         fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                                        lineNumber: 203,
+                                        lineNumber: 198,
                                         columnNumber: 21
                                     }, this)
                                 }, idx, false, {
                                     fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                                    lineNumber: 202,
+                                    lineNumber: 197,
                                     columnNumber: 19
                                 }, this);
                             })
                         }, void 0, false, {
                             fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                            lineNumber: 190,
+                            lineNumber: 185,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                        lineNumber: 189,
+                        lineNumber: 184,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-                lineNumber: 179,
+                lineNumber: 174,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/(root)/wholesale-clients/page.jsx",
-        lineNumber: 67,
+        lineNumber: 62,
         columnNumber: 5
     }, this);
 }
-_s(WholesaleClients, "xOh3sdun8hJiyFgxpW4tun5BXRw=", false, function() {
-    return [
-        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$usehooks$2d$ts$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMediaQuery"]
-    ];
-});
 _c = WholesaleClients;
 const __TURBOPACK__default__export__ = WholesaleClients;
 var _c;

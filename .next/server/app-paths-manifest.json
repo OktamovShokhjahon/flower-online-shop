@@ -1,6 +1,5 @@
 {
   "/(root)/page": "app/(root)/page.js",
-  "/(root)/wholesale-clients/page": "app/(root)/wholesale-clients/page.js",
-  "/(root)/retail-clients/page": "app/(root)/retail-clients/page.js",
+  "/(root)/payment-and-delivery/page": "app/(root)/payment-and-delivery/page.js",
   "/_not-found/page": "app/_not-found/page.js"
 }

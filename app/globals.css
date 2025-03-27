@@ -137,6 +137,10 @@ html {
   @apply text-[#453C3C] left-[35px] relative text-[16px] font-montserrat font-[400] list-decimal before:h-full before:w-[2px] before:bg-[#453C3C] before:absolute before:left-[-30px] before:top-0;
 }
 
+.disc-list {
+  @apply list-disc list-inside relative left-[15px];
+}
+
 img {
   pointer-events: none;
   user-select: none;
