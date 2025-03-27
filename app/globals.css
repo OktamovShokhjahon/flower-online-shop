@@ -141,6 +141,14 @@ html {
   @apply list-disc list-inside relative left-[15px];
 }
 
+.hr {
+  @apply h-[2px] w-full bg-[#453C3C80];
+}
+
+.before-line {
+  @apply before:absolute before:w-[2px] before:h-full before:bg-[#453C3C80] before:left-[-30px];
+}
+
 img {
   pointer-events: none;
   user-select: none;

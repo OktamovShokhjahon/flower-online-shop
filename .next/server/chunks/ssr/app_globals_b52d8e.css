@@ -617,6 +617,11 @@ body {
   margin-bottom: 100px;
 }
 
+.my-\[20px\] {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .my-\[50px\] {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -642,8 +647,16 @@ body {
   margin-bottom: 20px;
 }
 
+.mb-\[30px\] {
+  margin-bottom: 30px;
+}
+
 .mb-\[50px\] {
   margin-bottom: 50px;
+}
+
+.ml-\[17px\] {
+  margin-left: 17px;
 }
 
 .ml-\[5px\] {
@@ -672,6 +685,18 @@ body {
 
 .mt-auto {
   margin-top: auto;
+}
+
+.mt-\[58px\] {
+  margin-top: 58px;
+}
+
+.mb-\[15px\] {
+  margin-bottom: 15px;
+}
+
+.mt-\[15px\] {
+  margin-top: 15px;
 }
 
 .block {
@@ -1128,6 +1153,10 @@ body {
 
 .max-w-full {
   max-width: 100%;
+}
+
+.max-w-\[807px\] {
+  max-width: 807px;
 }
 
 .shrink-0 {
@@ -1737,6 +1766,16 @@ body {
   padding-bottom: 9px;
 }
 
+.py-\[58px\] {
+  padding-top: 58px;
+  padding-bottom: 58px;
+}
+
+.px-\[58px\] {
+  padding-left: 58px;
+  padding-right: 58px;
+}
+
 .pb-1 {
   padding-bottom: .25rem;
 }
@@ -2334,6 +2373,21 @@ html {
   left: 15px;
   list-style-position: inside;
   list-style-type: disc;
+}
+
+.hr {
+  height: 2px;
+  width: 100%;
+  background-color: #453c3c80;
+}
+
+.before-line:before {
+  position: absolute;
+  left: -30px;
+  height: 100%;
+  width: 2px;
+  content: var(--tw-content);
+  background-color: #453c3c80;
 }
 
 img {
