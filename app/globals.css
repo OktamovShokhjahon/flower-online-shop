@@ -125,6 +125,18 @@ html {
   @apply font-montserrat font-[600] text-[28px] text-[#7D6064];
 }
 
+.lil-title {
+  @apply font-[400] text-[24px] text-[#7D6064] font-montserrat;
+}
+
+.bolder-title {
+  @apply font-[600] text-[32px] leading-[38px] font-montserrat text-[#453C3C];
+}
+
+.number-list {
+  @apply text-[#453C3C] left-[35px] relative text-[16px] font-montserrat font-[400] list-decimal before:h-full before:w-[2px] before:bg-[#453C3C] before:absolute before:left-[-30px] before:top-0;
+}
+
 img {
   pointer-events: none;
   user-select: none;
