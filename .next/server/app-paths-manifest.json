@@ -1,7 +1,6 @@
 {
   "/(root)/page": "app/(root)/page.js",
-  "/(root)/example-calculation/page": "app/(root)/example-calculation/page.js",
-  "/(root)/holiday-schedule/page": "app/(root)/holiday-schedule/page.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/(root)/wholesale-clients/page": "app/(root)/wholesale-clients/page.js"
+  "/(root)/wholesale-clients/page": "app/(root)/wholesale-clients/page.js",
+  "/(root)/retail-clients/page": "app/(root)/retail-clients/page.js",
+  "/_not-found/page": "app/_not-found/page.js"
 }

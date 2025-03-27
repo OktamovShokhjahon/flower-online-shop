@@ -1352,22 +1352,6 @@ body {
   width: 100%;
 }
 
-.w-\[30\%\] {
-  width: 30%;
-}
-
-.w-\[65\%\] {
-  width: 65%;
-}
-
-.w-\[38\%\] {
-  width: 38%;
-}
-
-.w-\[60\%\] {
-  width: 60%;
-}
-
 .min-w-0 {
   min-width: 0;
 }
@@ -1424,32 +1408,12 @@ body {
   max-width: 550px;
 }
 
-.max-w-\[60px\] {
-  max-width: 60px;
-}
-
 .max-w-\[554px\] {
   max-width: 554px;
 }
 
-.max-w-\[784px\] {
-  max-width: 784px;
-}
-
-.max-w-\[770px\] {
-  max-width: 770px;
-}
-
-.max-w-\[38\%\] {
-  max-width: 38%;
-}
-
-.max-w-\[60\%\] {
-  max-width: 60%;
-}
-
-.max-w-\[68\%\] {
-  max-width: 68%;
+.max-w-\[60px\] {
+  max-width: 60px;
 }
 
 .max-w-full {
@@ -2008,6 +1972,11 @@ body {
   padding-right: 30px;
 }
 
+.px-\[48px\] {
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
 .px-\[50px\] {
   padding-left: 50px;
   padding-right: 50px;
@@ -2056,11 +2025,6 @@ body {
 .py-\[9px\] {
   padding-top: 9px;
   padding-bottom: 9px;
-}
-
-.px-\[48px\] {
-  padding-left: 48px;
-  padding-right: 48px;
 }
 
 .pb-1 {
@@ -3274,14 +3238,6 @@ img {
 
   .desktop\:items-center {
     align-items: center;
-  }
-
-  .desktop\:justify-center {
-    justify-content: center;
-  }
-
-  .desktop\:justify-evenly {
-    justify-content: space-evenly;
   }
 
   .desktop\:gap-6 {

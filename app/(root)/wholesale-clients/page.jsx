@@ -10,8 +10,6 @@ import "swiper/css";
 import "swiper/css/scrollbar";
 import { Scrollbar } from "swiper/modules";
 import Plantation2 from "../../../public/images/vit.webp";
-import { useRef } from "react";
-import { useMediaQuery } from "usehooks-ts";
 
 function WholesaleClients() {
   const links = [
@@ -24,9 +22,6 @@ function WholesaleClients() {
       href: "/wholesale-clients",
     },
   ];
-
-  const swiperRef = useRef(null);
-  const isMobile = useMediaQuery("(max-width: 768px)");
 
   const flowers = [
     {
